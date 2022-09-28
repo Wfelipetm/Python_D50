@@ -1,4 +1,4 @@
-# Faça um programa que leia uma string e imprima a), b), c), d).
+# Faça um programa que leia uma string e imprima:
 # a) Quantidade caracteres tem a string.
 # b) Quantidade caracteres são de pontuação....')
 # c) Quantidade caracteres são de número.
@@ -8,8 +8,9 @@ frase = input('Digite uma frase: ')
 print()
 
 
-quantidade_string = len(frase)
-print(f'a) Quantidade caracteres tem a string: {quantidade_string}')
+def quantidade_string(string):
+    string = len(frase)
+    return string
 
 
 def conta_pontuação(string):
@@ -18,18 +19,10 @@ def conta_pontuação(string):
     return sum(string.count(i) for i in pontuação)
 
 
-p = conta_pontuação(frase)
-print(f'b) Quantidade caracteres são de pontuação: {p}')
-
-
 def conta_pontuação(string):
     string = string.lower()
     número = '0123456789'
     return sum(string.count(i) for i in número)
-
-
-n = conta_pontuação(frase)
-print(f'c) Quantidade caracteres são de número: {n}')
 
 
 def conta_vogais(string):
@@ -38,5 +31,13 @@ def conta_vogais(string):
     return sum(string.count(i) for i in vogais)
 
 
+q = quantidade_string(frase)
+p = conta_pontuação(frase)
+n = conta_pontuação(frase)
 v = conta_vogais(frase)
+
+
+print(f'a) Quantidade caracteres tem a string: {q}')
+print(f'b) Quantidade caracteres são de pontuação: {p}')
+print(f'c) Quantidade caracteres são de número: {n}')
 print(f'd) Quantidade de caracteres vogais: {v}')
