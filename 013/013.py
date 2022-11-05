@@ -1,8 +1,3 @@
-'''Vamos ajudar o Arthur a contar as moedas do cofrinho dele. 💰
-   Vamos pedir para ele digitar as quantidades de cada moeda e 
-   no final imprimiremos quantos reais ele tem.'''
-
-
 def le_quantidade_de_moeda(nomeMoeda):
     quantidade = -1
     while (quantidade < 0):
