@@ -1,6 +1,3 @@
-'''Faça um programa que leia 3 valores 
-inteiros e imprima o maior e o menor deles!'''
-
 a = int(input('Digite o primeiro valor: '))
 b = int(input('Digite o segundo valor: '))
 c = int(input('Digite o terceiro valor: '))
