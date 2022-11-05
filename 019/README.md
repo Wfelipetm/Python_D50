@@ -1,4 +1,3 @@
-# Python_D50
- Desafio de 50 exercícios em Python - Prof: adrianocvieira
- 
- Em andamento!
+'''Vamos fazer uma função que verifica se um número é primo.
+Depois faça o programa ler um número inteiro positivo do usuário, 
+chame a função passando o valor como parâmetro e imprima o resultado, se o número que o usuário digitou é ou não primo.'''
