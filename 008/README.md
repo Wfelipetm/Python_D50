@@ -1,4 +1,2 @@
-# Python_D50
- Desafio de 50 exercícios em Python - Prof: adrianocvieira
- 
- Em andamento!
+'''Faça um programa que leia o valor da temperatura 
+em graus Celsius e imprima ela convertida em Fahrenheit.'''
