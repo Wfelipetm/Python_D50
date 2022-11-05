@@ -1,4 +1,3 @@
-# Python_D50
- Desafio de 50 exercícios em Python - Prof: adrianocvieira
- 
- Em andamento!
+'''Vamos ajudar o Arthur a contar as moedas do cofrinho dele. 💰
+   Vamos pedir para ele digitar as quantidades de cada moeda e 
+   no final imprimiremos quantos reais ele tem.'''
