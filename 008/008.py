@@ -1,7 +1,3 @@
-'''Faça um programa que leia o valor da temperatura 
-em graus Celsius e imprima ela convertida em Fahrenheit.'''
-
-
 def leia_valor_da_temperatura(c):
     valor = -1
     while (valor <= 0):
