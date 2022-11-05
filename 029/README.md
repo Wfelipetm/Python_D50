@@ -1,4 +1,4 @@
-# Python_D50
- Desafio de 50 exercícios em Python - Prof: adrianocvieira
- 
- Em andamento!
+'''
+Vamos fazer um programa que leia um texto digitado pelo usuário e substitua todas as 
+vogais por * e juntamente com a string censurada, retorne também a sequência das vogais censuradas.
+'''
