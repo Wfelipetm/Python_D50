@@ -1,4 +1,4 @@
-# Python_D50
- Desafio de 50 exercícios em Python - Prof: adrianocvieira
- 
- Em andamento!
+'''Faça um programa que leia a quantidade de dias 
+trabalhados pelo funcionario e imprima 
+essa informação convertida em anos, meses e dias.
+considerando que todos os meses possuem sempre 30 dias.'''
