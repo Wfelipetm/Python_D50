@@ -1,4 +1,3 @@
-# Python_D50
- Desafio de 50 exercícios em Python - Prof: adrianocvieira
- 
- Em andamento!
+'''Faça um programa que receba o valor dos 
+  catetos de um triângulo retângulo e 
+  improma na tela o valor da Hipotenusa. '''
